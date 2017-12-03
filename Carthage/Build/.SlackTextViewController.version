@@ -1,0 +1,9 @@
+{
+  "commitish" : "e1604ddbb2760a153c955bcea42ae55283d3e865",
+  "iOS" : [
+    {
+      "name" : "SlackTextViewController",
+      "hash" : "d9b71d8577165d2f0f2e832f755c8a20274927c319eb2865fd8ab75c6023ed4e"
+    }
+  ]
+}

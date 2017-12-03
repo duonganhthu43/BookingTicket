@@ -1,0 +1,1011 @@
+BCSymbolMap Version: 2.0
+-[UIScrollView(SLKAdditions) slk_scrollToTopAnimated:]
+-[UIScrollView(SLKAdditions) slk_scrollToBottomAnimated:]
+-[UIScrollView(SLKAdditions) slk_canScroll]
+-[UIScrollView(SLKAdditions) slk_isAtTop]
+-[UIScrollView(SLKAdditions) slk_isAtBottom]
+-[UIScrollView(SLKAdditions) slk_visibleRect]
+-[UIScrollView(SLKAdditions) slk_bottomRect]
+-[UIScrollView(SLKAdditions) slk_stopScrolling]
+Apple LLVM version 9.0.0 (clang-900.0.38)
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/UIScrollView+SLKAdditions.m
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/SlackTextViewController
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[SLKTypingIndicatorView init]
+-[SLKTypingIndicatorView initWithCoder:]
+-[SLKTypingIndicatorView slk_commonInit]
+-[SLKTypingIndicatorView setVisible:]
+-[SLKTypingIndicatorView dismissIndicator]
+-[SLKTypingIndicatorView textLabel]
+-[SLKTypingIndicatorView attributedString]
+-[SLKTypingIndicatorView intrinsicContentSize]
+-[SLKTypingIndicatorView height]
+-[SLKTypingIndicatorView setContentInset:]
+-[SLKTypingIndicatorView setHidden:]
+-[SLKTypingIndicatorView insertUsername:]
+-[SLKTypingIndicatorView removeUsername:]
+-[SLKTypingIndicatorView slk_shouldRemoveUsername:]
+-[SLKTypingIndicatorView slk_timerWithIdentifier:]
+-[SLKTypingIndicatorView slk_invalidateTimer:]
+-[SLKTypingIndicatorView slk_invalidateTimers]
+-[SLKTypingIndicatorView slk_prepareForReuse]
+-[SLKTypingIndicatorView slk_setupConstraints]
+-[SLKTypingIndicatorView slk_updateConstraintConstants]
+-[SLKTypingIndicatorView touchesBegan:withEvent:]
+-[SLKTypingIndicatorView touchesEnded:withEvent:]
+-[SLKTypingIndicatorView dealloc]
+-[SLKTypingIndicatorView isVisible]
+-[SLKTypingIndicatorView interval]
+-[SLKTypingIndicatorView setInterval:]
+-[SLKTypingIndicatorView canResignByTouch]
+-[SLKTypingIndicatorView setCanResignByTouch:]
+-[SLKTypingIndicatorView textColor]
+-[SLKTypingIndicatorView setTextColor:]
+-[SLKTypingIndicatorView highlightTextColor]
+-[SLKTypingIndicatorView setHighlightTextColor:]
+-[SLKTypingIndicatorView textFont]
+-[SLKTypingIndicatorView setTextFont:]
+-[SLKTypingIndicatorView highlightFont]
+-[SLKTypingIndicatorView setHighlightFont:]
+-[SLKTypingIndicatorView contentInset]
+-[SLKTypingIndicatorView setTextLabel:]
+-[SLKTypingIndicatorView usernames]
+-[SLKTypingIndicatorView setUsernames:]
+-[SLKTypingIndicatorView timers]
+-[SLKTypingIndicatorView setTimers:]
+-[SLKTypingIndicatorView leftContraint]
+-[SLKTypingIndicatorView setLeftContraint:]
+-[SLKTypingIndicatorView rightContraint]
+-[SLKTypingIndicatorView setRightContraint:]
+-[SLKTypingIndicatorView .cxx_destruct]
+_OBJC_IVAR_$_SLKTypingIndicatorView._visible
+_OBJC_IVAR_$_SLKTypingIndicatorView._textLabel
+_OBJC_IVAR_$_SLKTypingIndicatorView._contentInset
+_OBJC_IVAR_$_SLKTypingIndicatorView._interval
+_OBJC_IVAR_$_SLKTypingIndicatorView._canResignByTouch
+_OBJC_IVAR_$_SLKTypingIndicatorView._textColor
+_OBJC_IVAR_$_SLKTypingIndicatorView._highlightTextColor
+_OBJC_IVAR_$_SLKTypingIndicatorView._textFont
+_OBJC_IVAR_$_SLKTypingIndicatorView._highlightFont
+_OBJC_IVAR_$_SLKTypingIndicatorView._usernames
+_OBJC_IVAR_$_SLKTypingIndicatorView._timers
+_OBJC_IVAR_$_SLKTypingIndicatorView._leftContraint
+_OBJC_IVAR_$_SLKTypingIndicatorView._rightContraint
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_SLKTypingIndicatorProtocol
+l_OBJC_LABEL_PROTOCOL_$_SLKTypingIndicatorProtocol
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTypingIndicatorView.m
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTypingIndicatorView.h
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTypingIndicatorProtocol.h
+UIEdgeInsetsEqualToEdgeInsets
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+CGSizeMake
++[UIResponder(SLKAdditions) slk_currentFirstResponder]
+-[UIResponder(SLKAdditions) slk_findFirstResponder:]
+____currentFirstResponder
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/UIResponder+SLKAdditions.m
+-[NSObject(SLKTextInput) lookForPrefixes:completion:]
+-[NSObject(SLKTextInput) wordAtCaretRange:]
+-[NSObject(SLKTextInput) wordAtRange:rangeInText:]
+-[NSObject(SLKTextInput) slk_text]
+-[NSObject(SLKTextInput) slk_caretRange]
+l_OBJC_PROTOCOL_$_UITextInputTraits
+l_OBJC_LABEL_PROTOCOL_$_UITextInputTraits
+l_OBJC_PROTOCOL_$_UIKeyInput
+l_OBJC_LABEL_PROTOCOL_$_UIKeyInput
+l_OBJC_PROTOCOL_$_UITextInput
+l_OBJC_LABEL_PROTOCOL_$_UITextInput
+l_OBJC_PROTOCOL_$_SLKTextInput
+l_OBJC_LABEL_PROTOCOL_$_SLKTextInput
+l_OBJC_PROTOCOL_REFERENCE_$_SLKTextInput
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTextInput+Implementation.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[SLKTextView(SLKAdditions) slk_clearText:]
+-[SLKTextView(SLKAdditions) slk_scrollToCaretPositonAnimated:]
+___62-[SLKTextView(SLKAdditions) slk_scrollToCaretPositonAnimated:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[SLKTextView(SLKAdditions) slk_scrollToBottomAnimated:]
+___56-[SLKTextView(SLKAdditions) slk_scrollToBottomAnimated:]_block_invoke
+___copy_helper_block_.23
+___destroy_helper_block_.24
+-[SLKTextView(SLKAdditions) slk_insertNewLineBreak]
+___51-[SLKTextView(SLKAdditions) slk_insertNewLineBreak]_block_invoke
+___copy_helper_block_.33
+___destroy_helper_block_.34
+-[SLKTextView(SLKAdditions) slk_insertTextAtCaretRange:]
+-[SLKTextView(SLKAdditions) slk_insertTextAtCaretRange:withAttributes:]
+-[SLKTextView(SLKAdditions) slk_insertText:inRange:]
+-[SLKTextView(SLKAdditions) slk_insertText:withAttributes:inRange:]
+-[SLKTextView(SLKAdditions) slk_setAttributes:inRange:]
+-[SLKTextView(SLKAdditions) slk_insertAttributedTextAtCaretRange:]
+-[SLKTextView(SLKAdditions) slk_insertAttributedText:inRange:]
+-[SLKTextView(SLKAdditions) slk_clearAllAttributesInRange:]
+-[SLKTextView(SLKAdditions) slk_defaultAttributedStringForText:]
+-[SLKTextView(SLKAdditions) slk_prepareForUndo:]
+___block_descriptor_tmp
+___block_descriptor_tmp.25
+___block_descriptor_tmp.35
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTextView+SLKAdditions.m
+__destroy_helper_block_
+__copy_helper_block_
+__51-[SLKTextView(SLKAdditions) slk_insertNewLineBreak]_block_invoke
+__56-[SLKTextView(SLKAdditions) slk_scrollToBottomAnimated:]_block_invoke
+__62-[SLKTextView(SLKAdditions) slk_scrollToCaretPositonAnimated:]_block_invoke
+-[SLKTextInputbar initWithTextViewClass:]
+-[SLKTextInputbar init]
+-[SLKTextInputbar initWithCoder:]
+-[SLKTextInputbar slk_commonInit]
+-[SLKTextInputbar layoutIfNeeded]
+-[SLKTextInputbar intrinsicContentSize]
++[SLKTextInputbar requiresConstraintBasedLayout]
+-[SLKTextInputbar textView]
+-[SLKTextInputbar contentView]
+-[SLKTextInputbar inputAccessoryView]
+-[SLKTextInputbar leftButton]
+-[SLKTextInputbar rightButton]
+-[SLKTextInputbar editorContentView]
+-[SLKTextInputbar editorTitle]
+-[SLKTextInputbar editorLeftButton]
+-[SLKTextInputbar editorRightButton]
+-[SLKTextInputbar charCountLabel]
+-[SLKTextInputbar isHidden]
+-[SLKTextInputbar minimumInputbarHeight]
+-[SLKTextInputbar appropriateHeight]
+-[SLKTextInputbar limitExceeded]
+-[SLKTextInputbar slk_inputBarHeightForLines:]
+-[SLKTextInputbar slk_bottomMargin]
+-[SLKTextInputbar slk_contentViewHeight]
+-[SLKTextInputbar slk_appropriateRightButtonWidth]
+-[SLKTextInputbar slk_appropriateRightButtonMargin]
+-[SLKTextInputbar slk_defaultNumberOfLines]
+-[SLKTextInputbar setBackgroundColor:]
+-[SLKTextInputbar setAutoHideRightButton:]
+-[SLKTextInputbar setContentInset:]
+-[SLKTextInputbar setEditing:]
+-[SLKTextInputbar setHidden:]
+-[SLKTextInputbar setCounterPosition:]
+-[SLKTextInputbar canEditText:]
+-[SLKTextInputbar beginTextEditing]
+-[SLKTextInputbar endTextEdition]
+-[SLKTextInputbar slk_updateCounter]
+-[SLKTextInputbar slk_didChangeTextViewText:]
+-[SLKTextInputbar slk_didChangeTextViewContentSize:]
+-[SLKTextInputbar slk_didChangeContentSizeCategory:]
+-[SLKTextInputbar slk_setupViewConstraints]
+-[SLKTextInputbar slk_updateConstraintConstants]
+-[SLKTextInputbar slk_registerTo:forSelector:]
+-[SLKTextInputbar slk_unregisterFrom:forSelector:]
+-[SLKTextInputbar observeValueForKeyPath:ofObject:change:context:]
+-[SLKTextInputbar slk_registerNotifications]
+-[SLKTextInputbar slk_unregisterNotifications]
+-[SLKTextInputbar dealloc]
+-[SLKTextInputbar setLeftButton:]
+-[SLKTextInputbar setRightButton:]
+-[SLKTextInputbar autoHideRightButton]
+-[SLKTextInputbar bounces]
+-[SLKTextInputbar setBounces:]
+-[SLKTextInputbar contentInset]
+-[SLKTextInputbar setEditorContentView:]
+-[SLKTextInputbar setEditorTitle:]
+-[SLKTextInputbar setEditorLeftButton:]
+-[SLKTextInputbar setEditorRightButton:]
+-[SLKTextInputbar editorContentViewHeight]
+-[SLKTextInputbar setEditorContentViewHeight:]
+-[SLKTextInputbar isEditing]
+-[SLKTextInputbar maxCharCount]
+-[SLKTextInputbar setMaxCharCount:]
+-[SLKTextInputbar counterStyle]
+-[SLKTextInputbar setCounterStyle:]
+-[SLKTextInputbar counterPosition]
+-[SLKTextInputbar charCountLabelNormalColor]
+-[SLKTextInputbar setCharCountLabelNormalColor:]
+-[SLKTextInputbar charCountLabelWarningColor]
+-[SLKTextInputbar setCharCountLabelWarningColor:]
+-[SLKTextInputbar textViewBottomMarginC]
+-[SLKTextInputbar setTextViewBottomMarginC:]
+-[SLKTextInputbar contentViewHC]
+-[SLKTextInputbar setContentViewHC:]
+-[SLKTextInputbar leftButtonWC]
+-[SLKTextInputbar setLeftButtonWC:]
+-[SLKTextInputbar leftButtonHC]
+-[SLKTextInputbar setLeftButtonHC:]
+-[SLKTextInputbar leftMarginWC]
+-[SLKTextInputbar setLeftMarginWC:]
+-[SLKTextInputbar leftButtonBottomMarginC]
+-[SLKTextInputbar setLeftButtonBottomMarginC:]
+-[SLKTextInputbar rightButtonWC]
+-[SLKTextInputbar setRightButtonWC:]
+-[SLKTextInputbar rightMarginWC]
+-[SLKTextInputbar setRightMarginWC:]
+-[SLKTextInputbar rightButtonTopMarginC]
+-[SLKTextInputbar setRightButtonTopMarginC:]
+-[SLKTextInputbar rightButtonBottomMarginC]
+-[SLKTextInputbar setRightButtonBottomMarginC:]
+-[SLKTextInputbar editorContentViewHC]
+-[SLKTextInputbar setEditorContentViewHC:]
+-[SLKTextInputbar charCountLabelVCs]
+-[SLKTextInputbar setCharCountLabelVCs:]
+-[SLKTextInputbar setCharCountLabel:]
+-[SLKTextInputbar previousOrigin]
+-[SLKTextInputbar setPreviousOrigin:]
+-[SLKTextInputbar textViewClass]
+-[SLKTextInputbar setTextViewClass:]
+-[SLKTextInputbar .cxx_destruct]
+_OBJC_IVAR_$_SLKTextInputbar._textView
+_OBJC_IVAR_$_SLKTextInputbar._contentView
+_OBJC_IVAR_$_SLKTextInputbar._inputAccessoryView
+_OBJC_IVAR_$_SLKTextInputbar._leftButton
+_OBJC_IVAR_$_SLKTextInputbar._rightButton
+_OBJC_IVAR_$_SLKTextInputbar._editorContentView
+_OBJC_IVAR_$_SLKTextInputbar._editorTitle
+_OBJC_IVAR_$_SLKTextInputbar._editorLeftButton
+_OBJC_IVAR_$_SLKTextInputbar._editorRightButton
+_OBJC_IVAR_$_SLKTextInputbar._charCountLabel
+_OBJC_IVAR_$_SLKTextInputbar._hidden
+_OBJC_IVAR_$_SLKTextInputbar._autoHideRightButton
+_OBJC_IVAR_$_SLKTextInputbar._contentInset
+_OBJC_IVAR_$_SLKTextInputbar._editing
+_OBJC_IVAR_$_SLKTextInputbar._charCountLabelVCs
+_OBJC_IVAR_$_SLKTextInputbar._counterPosition
+_OBJC_IVAR_$_SLKTextInputbar._bounces
+_OBJC_IVAR_$_SLKTextInputbar._editorContentViewHeight
+_OBJC_IVAR_$_SLKTextInputbar._maxCharCount
+_OBJC_IVAR_$_SLKTextInputbar._counterStyle
+_OBJC_IVAR_$_SLKTextInputbar._charCountLabelNormalColor
+_OBJC_IVAR_$_SLKTextInputbar._charCountLabelWarningColor
+_OBJC_IVAR_$_SLKTextInputbar._textViewBottomMarginC
+_OBJC_IVAR_$_SLKTextInputbar._contentViewHC
+_OBJC_IVAR_$_SLKTextInputbar._leftButtonWC
+_OBJC_IVAR_$_SLKTextInputbar._leftButtonHC
+_OBJC_IVAR_$_SLKTextInputbar._leftMarginWC
+_OBJC_IVAR_$_SLKTextInputbar._leftButtonBottomMarginC
+_OBJC_IVAR_$_SLKTextInputbar._rightButtonWC
+_OBJC_IVAR_$_SLKTextInputbar._rightMarginWC
+_OBJC_IVAR_$_SLKTextInputbar._rightButtonTopMarginC
+_OBJC_IVAR_$_SLKTextInputbar._rightButtonBottomMarginC
+_OBJC_IVAR_$_SLKTextInputbar._editorContentViewHC
+_OBJC_IVAR_$_SLKTextInputbar._previousOrigin
+_OBJC_IVAR_$_SLKTextInputbar._textViewClass
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTextInputbar.m
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTextInputbar.h
+__CGPointEqualToPoint
+SLKKeyWindowBounds
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKUIConstants.h
+-[SLKTextView initWithFrame:textContainer:]
+-[SLKTextView initWithCoder:]
+-[SLKTextView slk_commonInit]
+-[SLKTextView intrinsicContentSize]
++[SLKTextView requiresConstraintBasedLayout]
+-[SLKTextView layoutIfNeeded]
+-[SLKTextView layoutSubviews]
+___29-[SLKTextView layoutSubviews]_block_invoke
+-[SLKTextView placeholderLabel]
+-[SLKTextView placeholder]
+-[SLKTextView placeholderColor]
+-[SLKTextView placeholderFont]
+-[SLKTextView numberOfLines]
+-[SLKTextView maxNumberOfLines]
+_SLKPointSizeDifferenceForCategory
+-[SLKTextView isTypingSuggestionEnabled]
+-[SLKTextView isFormattingEnabled]
+-[SLKTextView slk_pastedItem]
+-[SLKTextView slk_isPasteboardItemSupported]
+-[SLKTextView slk_pasteboardContentType]
+-[SLKTextView slk_supportedMediaTypes]
+-[SLKTextView isExpanding]
+-[SLKTextView slk_shouldHidePlaceholder]
+-[SLKTextView slk_placeholderRectThatFits:]
+-[SLKTextView setPlaceholder:]
+-[SLKTextView setPlaceholderColor:]
+-[SLKTextView setPlaceholderNumberOfLines:]
+-[SLKTextView setPlaceholderFont:]
+-[SLKTextView setUndoManagerEnabled:]
+-[SLKTextView setTypingSuggestionEnabled:]
+-[SLKTextView setContentOffset:]
+-[SLKTextView setSelectedRange:]
+-[SLKTextView setSelectedTextRange:]
+-[SLKTextView setText:]
+-[SLKTextView text]
+-[SLKTextView setAttributedText:]
+-[SLKTextView setFont:]
+-[SLKTextView setFontName:pointSize:withContentSizeCategory:]
+-[SLKTextView setDynamicTypeEnabled:]
+-[SLKTextView setTextAlignment:]
+-[SLKTextView beginFloatingCursorAtPoint:]
+-[SLKTextView updateFloatingCursorAtPoint:]
+-[SLKTextView endFloatingCursor]
+-[SLKTextView canBecomeFirstResponder]
+-[SLKTextView becomeFirstResponder]
+-[SLKTextView canResignFirstResponder]
+-[SLKTextView resignFirstResponder]
+-[SLKTextView canPerformAction:withSender:]
+-[SLKTextView paste:]
+-[SLKTextView methodSignatureForSelector:]
+-[SLKTextView forwardInvocation:]
+-[SLKTextView slk_flashScrollIndicatorsIfNeeded]
+-[SLKTextView refreshFirstResponder]
+-[SLKTextView refreshInputViews]
+-[SLKTextView slk_addCustomMenuControllerItems]
+-[SLKTextView slk_undo:]
+-[SLKTextView slk_redo:]
+-[SLKTextView slk_presentFormattingMenu:]
+-[SLKTextView slk_formattingTitleFromSelector:]
+-[SLKTextView slk_formattingSymbolWithTitle:]
+-[SLKTextView slk_format:]
+-[SLKTextView registerMarkdownFormattingSymbol:withTitle:]
+-[SLKTextView registeredSymbols]
+-[SLKTextView slk_didBeginEditing:]
+-[SLKTextView slk_didChangeText:]
+-[SLKTextView slk_didEndEditing:]
+-[SLKTextView slk_didChangeTextInputMode:]
+-[SLKTextView slk_didChangeContentSizeCategory:]
+-[SLKTextView slk_willShowMenuController:]
+-[SLKTextView slk_didHideMenuController:]
+-[SLKTextView observeValueForKeyPath:ofObject:change:context:]
+-[SLKTextView motionEnded:withEvent:]
+-[SLKTextView observeKeyInput:modifiers:title:completion:]
+-[SLKTextView didDetectKeyCommand:]
+-[SLKTextView keyForKeyCommand:]
+-[SLKTextView keyCommands]
+-[SLKTextView didPressArrowKey:]
+-[SLKTextView slk_moveCursorTodirection:]
+-[SLKTextView slk_closestPositionToPosition:inDirection:]
+-[SLKTextView slk_isNewVerticalMovementForPosition:inDirection:]
+-[SLKTextView slk_registerNotifications]
+-[SLKTextView slk_unregisterNotifications]
+-[SLKTextView dealloc]
+-[SLKTextView placeholderNumberOfLines]
+-[SLKTextView setMaxNumberOfLines:]
+-[SLKTextView pastableMediaTypes]
+-[SLKTextView setPastableMediaTypes:]
+-[SLKTextView didNotResignFirstResponder]
+-[SLKTextView setDidNotResignFirstResponder:]
+-[SLKTextView isLoupeVisible]
+-[SLKTextView setLoupeVisible:]
+-[SLKTextView isTrackpadEnabled]
+-[SLKTextView undoManagerEnabled]
+-[SLKTextView isDynamicTypeEnabled]
+-[SLKTextView setPlaceholderLabel:]
+-[SLKTextView initialFontSize]
+-[SLKTextView setInitialFontSize:]
+-[SLKTextView verticalMoveDirection]
+-[SLKTextView setVerticalMoveDirection:]
+-[SLKTextView verticalMoveStartCaretRect]
+-[SLKTextView setVerticalMoveStartCaretRect:]
+-[SLKTextView verticalMoveLastCaretRect]
+-[SLKTextView setVerticalMoveLastCaretRect:]
+-[SLKTextView didFlashScrollIndicators]
+-[SLKTextView setDidFlashScrollIndicators:]
+-[SLKTextView registeredFormattingTitles]
+-[SLKTextView setRegisteredFormattingTitles:]
+-[SLKTextView registeredFormattingSymbols]
+-[SLKTextView setRegisteredFormattingSymbols:]
+-[SLKTextView isFormatting]
+-[SLKTextView setFormatting:]
+-[SLKTextView registeredKeyCommands]
+-[SLKTextView setRegisteredKeyCommands:]
+-[SLKTextView registeredKeyCallbacks]
+-[SLKTextView setRegisteredKeyCallbacks:]
+-[SLKTextView .cxx_destruct]
+_SLKKeyWindowBounds
+_OBJC_IVAR_$_SLKTextView._pastableMediaTypes
+_OBJC_IVAR_$_SLKTextView._dynamicTypeEnabled
+_OBJC_IVAR_$_SLKTextView._placeholderLabel
+_OBJC_IVAR_$_SLKTextView._maxNumberOfLines
+_OBJC_IVAR_$_SLKTextView._undoManagerEnabled
+_OBJC_IVAR_$_SLKTextView._trackpadEnabled
+_OBJC_IVAR_$_SLKTextView._didFlashScrollIndicators
+_OBJC_IVAR_$_SLKTextView._didNotResignFirstResponder
+_OBJC_IVAR_$_SLKTextView._registeredFormattingTitles
+_OBJC_IVAR_$_SLKTextView._registeredFormattingSymbols
+_OBJC_IVAR_$_SLKTextView._registeredKeyCommands
+_OBJC_IVAR_$_SLKTextView._registeredKeyCallbacks
+_OBJC_IVAR_$_SLKTextView._placeholderNumberOfLines
+_OBJC_IVAR_$_SLKTextView._loupeVisible
+_OBJC_IVAR_$_SLKTextView._initialFontSize
+_OBJC_IVAR_$_SLKTextView._verticalMoveDirection
+_OBJC_IVAR_$_SLKTextView._verticalMoveStartCaretRect
+_OBJC_IVAR_$_SLKTextView._verticalMoveLastCaretRect
+_OBJC_IVAR_$_SLKTextView._formatting
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTextView.m
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTextView.h
+UIEdgeInsetsInsetRect
+NSStringFromSLKPastableMediaType
+SLKPastableMediaTypeFromNSString
+SLKPointSizeDifferenceForCategory
+__29-[SLKTextView layoutSubviews]_block_invoke
+-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithBounce:options:animations:]
+-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithBounce:options:animations:completion:]
+-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]
+___99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke
+___99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke.8
+___copy_helper_block_.9
+___destroy_helper_block_.10
+-[UIView(SLKAdditions) slk_constraintsForAttribute:]
+-[UIView(SLKAdditions) slk_constraintForAttribute:firstItem:secondItem:]
+___block_descriptor_tmp.11
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/UIView+SLKAdditions.m
+__99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke.8
+__99-[UIView(SLKAdditions) slk_animateLayoutIfNeededWithDuration:bounce:options:animations:completion:]_block_invoke
+-[SLKTextViewController initWithNibName:bundle:]
+-[SLKTextViewController init]
+-[SLKTextViewController initWithTableViewStyle:]
+-[SLKTextViewController initWithCollectionViewLayout:]
+-[SLKTextViewController initWithScrollView:]
+-[SLKTextViewController initWithCoder:]
+-[SLKTextViewController slk_commonInit]
+-[SLKTextViewController loadView]
+-[SLKTextViewController viewDidLoad]
+-[SLKTextViewController viewWillAppear:]
+___40-[SLKTextViewController viewWillAppear:]_block_invoke
+-[SLKTextViewController viewDidAppear:]
+-[SLKTextViewController viewWillDisappear:]
+-[SLKTextViewController viewDidDisappear:]
+-[SLKTextViewController viewWillLayoutSubviews]
+-[SLKTextViewController viewDidLayoutSubviews]
+-[SLKTextViewController viewSafeAreaInsetsDidChange]
++[SLKTextViewController tableViewStyleForCoder:]
++[SLKTextViewController collectionViewLayoutForCoder:]
+-[SLKTextViewController tableViewWithStyle:]
+-[SLKTextViewController collectionViewWithLayout:]
+-[SLKTextViewController autoCompletionView]
+-[SLKTextViewController textInputbar]
+-[SLKTextViewController typingIndicatorProxyView]
+-[SLKTextViewController typingIndicatorView]
+-[SLKTextViewController isPresentedInPopover]
+-[SLKTextViewController isTextInputbarHidden]
+-[SLKTextViewController textView]
+-[SLKTextViewController leftButton]
+-[SLKTextViewController rightButton]
+-[SLKTextViewController modalPresentationStyle]
+-[SLKTextViewController slk_appropriateKeyboardHeightFromNotification:]
+-[SLKTextViewController slk_appropriateKeyboardHeightFromRect:]
+-[SLKTextViewController slk_appropriateBottomMargin]
+-[SLKTextViewController slk_appropriateScrollViewHeight]
+-[SLKTextViewController slk_topBarsHeight]
+-[SLKTextViewController slk_appropriateKeyboardNotificationName:]
+-[SLKTextViewController slk_keyboardStatusForNotification:]
+-[SLKTextViewController slk_isIllogicalKeyboardStatus:]
+-[SLKTextViewController setEdgesForExtendedLayout:]
+-[SLKTextViewController setScrollViewProxy:]
+-[SLKTextViewController setAutoCompleting:]
+-[SLKTextViewController setInverted:]
+-[SLKTextViewController setBounces:]
+-[SLKTextViewController slk_updateInsetAdjustmentBehavior]
+-[SLKTextViewController slk_updateKeyboardStatus:]
+-[SLKTextViewController presentKeyboard:]
+___41-[SLKTextViewController presentKeyboard:]_block_invoke
+___copy_helper_block_.290
+___destroy_helper_block_.291
+-[SLKTextViewController dismissKeyboard:]
+___41-[SLKTextViewController dismissKeyboard:]_block_invoke
+___copy_helper_block_.299
+___destroy_helper_block_.300
+-[SLKTextViewController forceTextInputbarAdjustmentForResponder:]
+-[SLKTextViewController ignoreTextInputbarAdjustment]
+-[SLKTextViewController didChangeKeyboardStatus:]
+-[SLKTextViewController textWillUpdate]
+-[SLKTextViewController textDidUpdate:]
+___39-[SLKTextViewController textDidUpdate:]_block_invoke
+___copy_helper_block_.330
+___destroy_helper_block_.331
+-[SLKTextViewController textSelectionDidChange]
+-[SLKTextViewController canPressRightButton]
+-[SLKTextViewController didPressLeftButton:]
+-[SLKTextViewController didPressRightButton:]
+-[SLKTextViewController editText:]
+-[SLKTextViewController editAttributedText:]
+-[SLKTextViewController didCommitTextEditing:]
+-[SLKTextViewController didCancelTextEditing:]
+-[SLKTextViewController canShowTypingIndicator]
+-[SLKTextViewController heightForAutoCompletionView]
+-[SLKTextViewController maximumHeightForAutoCompletionView]
+-[SLKTextViewController didPasteMediaContent:]
+-[SLKTextViewController willRequestUndo]
+___40-[SLKTextViewController willRequestUndo]_block_invoke
+___copy_helper_block_.407
+___destroy_helper_block_.408
+-[SLKTextViewController setTextInputbarHidden:]
+-[SLKTextViewController setTextInputbarHidden:animated:]
+___56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke
+___copy_helper_block_.419
+___destroy_helper_block_.420
+___56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke.422
+___copy_helper_block_.425
+___destroy_helper_block_.426
+-[SLKTextViewController slk_didPanTextInputBar:]
+___48-[SLKTextViewController slk_didPanTextInputBar:]_block_invoke
+___copy_helper_block_.435
+___destroy_helper_block_.436
+-[SLKTextViewController slk_handlePanGestureRecognizer:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke
+___copy_helper_block_.456
+___destroy_helper_block_.457
+___56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke.459
+___copy_helper_block_.460
+___destroy_helper_block_.461
+-[SLKTextViewController slk_didTapScrollView:]
+-[SLKTextViewController slk_didPanTextView:]
+-[SLKTextViewController slk_performRightAction]
+-[SLKTextViewController slk_postKeyboarStatusNotification:]
+-[SLKTextViewController slk_enableTypingSuggestionIfNeeded]
+-[SLKTextViewController slk_dismissTextInputbarIfNeeded]
+-[SLKTextViewController slk_detectKeyboardStatesInNotification:]
+-[SLKTextViewController slk_adjustContentConfigurationIfNeeded]
+-[SLKTextViewController slk_prepareForInterfaceTransitionWithDuration:]
+___71-[SLKTextViewController slk_prepareForInterfaceTransitionWithDuration:]_block_invoke
+___copy_helper_block_.518
+___destroy_helper_block_.519
+-[SLKTextViewController didPressReturnKey:]
+-[SLKTextViewController didPressEscapeKey:]
+-[SLKTextViewController didPressArrowKey:]
+-[SLKTextViewController slk_willShowOrHideKeyboard:]
+___52-[SLKTextViewController slk_willShowOrHideKeyboard:]_block_invoke
+___copy_helper_block_.554
+___destroy_helper_block_.555
+-[SLKTextViewController slk_didShowOrHideKeyboard:]
+___51-[SLKTextViewController slk_didShowOrHideKeyboard:]_block_invoke
+___copy_helper_block_.561
+___destroy_helper_block_.562
+-[SLKTextViewController slk_didPostSLKKeyboardNotification:]
+-[SLKTextViewController slk_willChangeTextViewText:]
+-[SLKTextViewController slk_didChangeTextViewText:]
+-[SLKTextViewController slk_didChangeTextViewContentSize:]
+-[SLKTextViewController slk_didChangeTextViewSelectedRange:]
+-[SLKTextViewController slk_didChangeTextViewPasteboard:]
+-[SLKTextViewController slk_didShakeTextView:]
+-[SLKTextViewController slk_willShowOrHideTypeIndicatorView:]
+___61-[SLKTextViewController slk_willShowOrHideTypeIndicatorView:]_block_invoke
+___copy_helper_block_.584
+___destroy_helper_block_.585
+-[SLKTextViewController observeValueForKeyPath:ofObject:change:context:]
+-[SLKTextViewController registerPrefixesForAutoCompletion:]
+-[SLKTextViewController shouldProcessTextForAutoCompletion]
+-[SLKTextViewController shouldDisableTypingSuggestionForAutoCompletion]
+-[SLKTextViewController didChangeAutoCompletionPrefix:andWord:]
+-[SLKTextViewController showAutoCompletionView:]
+-[SLKTextViewController showAutoCompletionViewWithPrefix:andWord:prefixRange:]
+-[SLKTextViewController acceptAutoCompletionWithString:]
+-[SLKTextViewController acceptAutoCompletionWithString:keepPrefix:]
+-[SLKTextViewController cancelAutoCompletion]
+-[SLKTextViewController slk_processTextForAutoCompletion]
+___57-[SLKTextViewController slk_processTextForAutoCompletion]_block_invoke
+___copy_helper_block_.678
+___destroy_helper_block_.679
+-[SLKTextViewController slk_handleProcessedWord:wordRange:]
+-[SLKTextViewController slk_invalidateAutoCompletion]
+-[SLKTextViewController slk_hideAutoCompletionViewIfNeeded]
+-[SLKTextViewController keyForTextCaching]
+-[SLKTextViewController slk_keyForPersistency]
+-[SLKTextViewController slk_reloadTextView]
+-[SLKTextViewController cacheTextView]
+-[SLKTextViewController clearCachedText]
+-[SLKTextViewController slk_cacheAttributedTextToDisk:]
+-[SLKTextViewController slk_cacheTextToDisk:]
++[SLKTextViewController clearAllCachedText]
+-[SLKTextViewController registerClassForTextView:]
+-[SLKTextViewController registerClassForTypingIndicatorView:]
+-[SLKTextViewController textView:shouldChangeTextInRange:replacementText:]
+-[SLKTextViewController textViewDidChange:]
+-[SLKTextViewController textViewDidChangeSelection:]
+-[SLKTextViewController textViewShouldBeginEditing:]
+-[SLKTextViewController textViewShouldEndEditing:]
+-[SLKTextViewController textViewDidBeginEditing:]
+-[SLKTextViewController textViewDidEndEditing:]
+-[SLKTextViewController textView:shouldOfferFormattingForSymbol:]
+-[SLKTextViewController textView:shouldInsertSuffixForFormattingWithSymbol:prefixRange:]
+-[SLKTextViewController tableView:numberOfRowsInSection:]
+-[SLKTextViewController tableView:cellForRowAtIndexPath:]
+-[SLKTextViewController collectionView:numberOfItemsInSection:]
+-[SLKTextViewController collectionView:cellForItemAtIndexPath:]
+-[SLKTextViewController scrollViewShouldScrollToTop:]
+-[SLKTextViewController scrollViewDidEndDragging:willDecelerate:]
+-[SLKTextViewController scrollViewDidEndDecelerating:]
+-[SLKTextViewController scrollViewDidScroll:]
+-[SLKTextViewController gestureRecognizerShouldBegin:]
+-[SLKTextViewController slk_setupViewConstraints]
+-[SLKTextViewController slk_updateViewConstraints]
+-[SLKTextViewController slk_registerKeyCommands]
+___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke
+___copy_helper_block_.837
+___destroy_helper_block_.838
+___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.845
+___copy_helper_block_.848
+___destroy_helper_block_.849
+___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.851
+___copy_helper_block_.852
+___destroy_helper_block_.853
+___48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.855
+___copy_helper_block_.856
+___destroy_helper_block_.857
+-[SLKTextViewController keyCommands]
+-[SLKTextViewController slk_registerNotifications]
+-[SLKTextViewController slk_unregisterNotifications]
+-[SLKTextViewController willTransitionToTraitCollection:withTransitionCoordinator:]
+-[SLKTextViewController viewWillTransitionToSize:withTransitionCoordinator:]
+-[SLKTextViewController supportedInterfaceOrientations]
+-[SLKTextViewController shouldAutorotate]
+-[SLKTextViewController didReceiveMemoryWarning]
+-[SLKTextViewController dealloc]
+-[SLKTextViewController tableView]
+-[SLKTextViewController collectionView]
+-[SLKTextViewController scrollView]
+-[SLKTextViewController isAutoCompleting]
+-[SLKTextViewController scrollViewProxy]
+-[SLKTextViewController setPresentedInPopover:]
+-[SLKTextViewController singleTapGesture]
+-[SLKTextViewController verticalPanGesture]
+-[SLKTextViewController bounces]
+-[SLKTextViewController shakeToClearEnabled]
+-[SLKTextViewController setShakeToClearEnabled:]
+-[SLKTextViewController isKeyboardPanningEnabled]
+-[SLKTextViewController setKeyboardPanningEnabled:]
+-[SLKTextViewController isExternalKeyboardDetected]
+-[SLKTextViewController isKeyboardUndocked]
+-[SLKTextViewController shouldClearTextAtRightButtonPress]
+-[SLKTextViewController setShouldClearTextAtRightButtonPress:]
+-[SLKTextViewController shouldScrollToBottomAfterKeyboardShows]
+-[SLKTextViewController setShouldScrollToBottomAfterKeyboardShows:]
+-[SLKTextViewController isInverted]
+-[SLKTextViewController keyboardStatus]
+-[SLKTextViewController isEditing]
+-[SLKTextViewController foundPrefix]
+-[SLKTextViewController setFoundPrefix:]
+-[SLKTextViewController foundPrefixRange]
+-[SLKTextViewController setFoundPrefixRange:]
+-[SLKTextViewController foundWord]
+-[SLKTextViewController setFoundWord:]
+-[SLKTextViewController registeredPrefixes]
+-[SLKTextViewController autoCompletionHairline]
+-[SLKTextViewController setAutoCompletionHairline:]
+-[SLKTextViewController scrollViewHC]
+-[SLKTextViewController setScrollViewHC:]
+-[SLKTextViewController textInputbarHC]
+-[SLKTextViewController setTextInputbarHC:]
+-[SLKTextViewController typingIndicatorViewHC]
+-[SLKTextViewController setTypingIndicatorViewHC:]
+-[SLKTextViewController autoCompletionViewHC]
+-[SLKTextViewController setAutoCompletionViewHC:]
+-[SLKTextViewController keyboardHC]
+-[SLKTextViewController setKeyboardHC:]
+-[SLKTextViewController isMovingKeyboard]
+-[SLKTextViewController setMovingKeyboard:]
+-[SLKTextViewController isViewVisible]
+-[SLKTextViewController setViewVisible:]
+-[SLKTextViewController isTransitioning]
+-[SLKTextViewController setTransitioning:]
+-[SLKTextViewController textViewClass]
+-[SLKTextViewController setTextViewClass:]
+-[SLKTextViewController typingIndicatorViewClass]
+-[SLKTextViewController setTypingIndicatorViewClass:]
+-[SLKTextViewController .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_IVAR_$_SLKTextViewController._scrollView
+_OBJC_IVAR_$_SLKTextViewController._tableView
+_OBJC_IVAR_$_SLKTextViewController._collectionView
+_OBJC_IVAR_$_SLKTextViewController._autoCompletionView
+_OBJC_IVAR_$_SLKTextViewController._autoCompletionHairline
+_OBJC_IVAR_$_SLKTextViewController._textInputbar
+_OBJC_IVAR_$_SLKTextViewController._verticalPanGesture
+_OBJC_IVAR_$_SLKTextViewController._typingIndicatorProxyView
+_OBJC_IVAR_$_SLKTextViewController._presentedInPopover
+_OBJC_IVAR_$_SLKTextViewController._scrollViewProxy
+_OBJC_IVAR_$_SLKTextViewController._singleTapGesture
+_OBJC_IVAR_$_SLKTextViewController._autoCompleting
+_OBJC_IVAR_$_SLKTextViewController._inverted
+_OBJC_IVAR_$_SLKTextViewController._bounces
+_OBJC_IVAR_$_SLKTextViewController._keyboardStatus
+___block_descriptor_tmp.292
+___block_descriptor_tmp.301
+___block_descriptor_tmp.332
+___block_descriptor_tmp.410
+___block_descriptor_tmp.421
+___block_descriptor_tmp.428
+___block_descriptor_tmp.437
+_slk_handlePanGestureRecognizer:.startPoint
+_slk_handlePanGestureRecognizer:.originalFrame
+_slk_handlePanGestureRecognizer:.dragging
+_OBJC_IVAR_$_SLKTextViewController._scrollViewOffsetBeforeDragging
+_OBJC_IVAR_$_SLKTextViewController._keyboardHeightBeforeDragging
+___block_descriptor_tmp.458
+___block_descriptor_tmp.462
+_OBJC_IVAR_$_SLKTextViewController._externalKeyboardDetected
+_OBJC_IVAR_$_SLKTextViewController._keyboardUndocked
+___block_descriptor_tmp.520
+___block_descriptor_tmp.556
+___block_descriptor_tmp.563
+___block_descriptor_tmp.586
+l_OBJC_PROTOCOL_REFERENCE_$_SLKTypingIndicatorProtocol
+_OBJC_IVAR_$_SLKTextViewController._registeredPrefixes
+_OBJC_IVAR_$_SLKTextViewController._foundPrefix
+_OBJC_IVAR_$_SLKTextViewController._foundWord
+_OBJC_IVAR_$_SLKTextViewController._foundPrefixRange
+___block_descriptor_tmp.681
+___block_descriptor_tmp.840
+___block_descriptor_tmp.850
+___block_descriptor_tmp.854
+___block_descriptor_tmp.858
+_OBJC_IVAR_$_SLKTextViewController._shakeToClearEnabled
+_OBJC_IVAR_$_SLKTextViewController._keyboardPanningEnabled
+_OBJC_IVAR_$_SLKTextViewController._shouldClearTextAtRightButtonPress
+_OBJC_IVAR_$_SLKTextViewController._shouldScrollToBottomAfterKeyboardShows
+_OBJC_IVAR_$_SLKTextViewController._editing
+_OBJC_IVAR_$_SLKTextViewController._scrollViewHC
+_OBJC_IVAR_$_SLKTextViewController._textInputbarHC
+_OBJC_IVAR_$_SLKTextViewController._typingIndicatorViewHC
+_OBJC_IVAR_$_SLKTextViewController._autoCompletionViewHC
+_OBJC_IVAR_$_SLKTextViewController._keyboardHC
+_OBJC_IVAR_$_SLKTextViewController._movingKeyboard
+_OBJC_IVAR_$_SLKTextViewController._viewVisible
+_OBJC_IVAR_$_SLKTextViewController._transitioning
+_OBJC_IVAR_$_SLKTextViewController._textViewClass
+_OBJC_IVAR_$_SLKTextViewController._typingIndicatorViewClass
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITextViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
+l_OBJC_PROTOCOL_$_SLKTextViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_SLKTextViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+l_OBJC_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+l_OBJC_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_PROTOCOL_$_UIAlertViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIAlertViewDelegate
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTextViewController.m
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKTextViewController.h
+__48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.855
+__48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.851
+__48-[SLKTextViewController slk_registerKeyCommands]_block_invoke.845
+__48-[SLKTextViewController slk_registerKeyCommands]_block_invoke
+__57-[SLKTextViewController slk_processTextForAutoCompletion]_block_invoke
+__61-[SLKTextViewController slk_willShowOrHideTypeIndicatorView:]_block_invoke
+__51-[SLKTextViewController slk_didShowOrHideKeyboard:]_block_invoke
+__52-[SLKTextViewController slk_willShowOrHideKeyboard:]_block_invoke
+CGPointMake
+__71-[SLKTextViewController slk_prepareForInterfaceTransitionWithDuration:]_block_invoke
+__56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke.459
+__56-[SLKTextViewController slk_handlePanGestureRecognizer:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__48-[SLKTextViewController slk_didPanTextInputBar:]_block_invoke
+__56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke.422
+__56-[SLKTextViewController setTextInputbarHidden:animated:]_block_invoke
+__40-[SLKTextViewController willRequestUndo]_block_invoke
+__39-[SLKTextViewController textDidUpdate:]_block_invoke
+__41-[SLKTextViewController dismissKeyboard:]_block_invoke
+__41-[SLKTextViewController presentKeyboard:]_block_invoke
+__40-[SLKTextViewController viewWillAppear:]_block_invoke
+-[SLKInputAccessoryView willMoveToSuperview:]
+-[SLKInputAccessoryView keyboardViewProxy]
+-[SLKInputAccessoryView .cxx_destruct]
+_OBJC_IVAR_$_SLKInputAccessoryView._keyboardViewProxy
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKInputAccessoryView.m
+/Users/anhthu/Desktop/BookingTicket/Carthage/Checkouts/SlackTextViewController/Source/SLKInputAccessoryView.h
+/Users/anhthu/Library/Caches/org.carthage.CarthageKit/DerivedData/9.1_9B55/SlackTextViewController/e1604ddbb2760a153c955bcea42ae55283d3e865/Build/Intermediates.noindex/ArchiveIntermediates/SlackTextViewController/IntermediateBuildFilesPath/SlackTextViewController.build/Release-iphoneos/SlackTextViewController.build/DerivedSources/SlackTextViewController_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=302.3.1 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-67
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

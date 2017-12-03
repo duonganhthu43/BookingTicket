@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.2.4",
+  "iOS" : [
+    {
+      "name" : "Marshal",
+      "hash" : "c427a781a18cea11738d6793ede1a4f45461b079155559e36c331ca01deb4120"
+    }
+  ]
+}

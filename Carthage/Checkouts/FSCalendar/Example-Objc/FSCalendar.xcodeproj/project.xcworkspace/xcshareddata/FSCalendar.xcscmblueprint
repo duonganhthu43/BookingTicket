@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8E582E62FAFB19B146D1569C431860EC18ABFCA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8E582E62FAFB19B146D1569C431860EC18ABFCA1" : 9223372036854775807,
+    "9B02AA35B77F1EDF49A0DBB25A3A331070859042" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "73A2C779-4933-4C79-A1CE-6C26ED36CBDB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8E582E62FAFB19B146D1569C431860EC18ABFCA1" : "FSCalendar\/",
+    "9B02AA35B77F1EDF49A0DBB25A3A331070859042" : "Workmates\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FSCalendar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example-Objc\/FSCalendar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WenchaoD\/FSCalendar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8E582E62FAFB19B146D1569C431860EC18ABFCA1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.neogov.com\/scm\/apps\/corehr-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9B02AA35B77F1EDF49A0DBB25A3A331070859042"
+    }
+  ]
+}

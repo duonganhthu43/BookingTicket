@@ -1,0 +1,9 @@
+{
+  "commitish" : "3.0.2",
+  "iOS" : [
+    {
+      "name" : "YapDatabase",
+      "hash" : "c3c281211f790adf60e8932c17aea4c7f734ffd338b3e6a1ee5ac4f607414f1c"
+    }
+  ]
+}
