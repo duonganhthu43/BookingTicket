@@ -14,7 +14,7 @@ enum Image : String {
     case backButton
     case camera
     case roundedButtonBackgroundLine
-    case error, success, warning, removeSmall, clear
+    case error, errorBig, success, warning, removeSmall, clear
     case dashboard, departure, destination, calendar
 }
 extension Image {

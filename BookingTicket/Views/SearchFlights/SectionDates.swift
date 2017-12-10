@@ -36,7 +36,16 @@ final class SectionDatesController: ViewController, SectionedChildViewController
         stackView.addArrangedSubview(departure)
         stackView.addArrangedSubview(destination)
         
+        let state  = leaveViewModel.state.asDriver()
+        state.map {$0.values.startDate?.mediumDateString}
+            .filter{$0 != nil}.drive(departure.rx.title(for: .normal)).disposed(by: disposeBag)
+         state.map {$0.values.endDate?.mediumDateString}
+            .filter{$0 != nil}.drive(destination.rx.title(for: .normal)).disposed(by: disposeBag)
+        roundTripSwitch.rx.isOn.asDriver().map{!$0}.drive(destination.rx.isHidden).disposed(by: disposeBag)
+        
     }
+    
+    private lazy var leaveViewModel: LeaveDatesViewModel = LeaveDatesViewModel(startDate: nil, endDate: nil, roundTrip: roundTripSwitch.rx.isOn.asDriver())
     private lazy var departure: UIButton = createButton(placeHolder: "Fly Out", icon: Image.calendar.image)
     private lazy var destination: UIButton = createButton(placeHolder: "Fly Back", icon: Image.calendar.image)
     private lazy var roundTripSwitch = createSwitch()
@@ -60,6 +69,7 @@ final class SectionDatesController: ViewController, SectionedChildViewController
         iconView.autoPinEdge(toSuperviewEdge: .left, withInset: 10)
         iconView.autoSetDimensions(to: CGSize(width: 18, height: 18))
         iconView.autoAlignAxis(toSuperviewAxis: .horizontal)
+        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         return button
     }
     
@@ -85,6 +95,11 @@ final class SectionDatesController: ViewController, SectionedChildViewController
         toggle.tintColor = ColorPalette.mainColor
         toggle.isOn = true
         return toggle
+    }
+    
+    @objc private func buttonTapped() {
+        let leaveDatesController = SelectDateViewController(viewModel: leaveViewModel)
+        navigationController?.pushViewController(leaveDatesController, animated: true)
     }
     
 }

@@ -9,18 +9,26 @@
 import RxSwift
 import RxCocoa
 import FSCalendar
+import UIKit
 
 //MARK: Delegate
 
-final class RxCalendarViewDelegateProxy: DelegateProxy, DelegateProxyType, FSCalendarDelegate, FSCalendarDelegateAppearance {
-    required init(parentObject: AnyObject) {
-        calendar = (parentObject as! CalendarView)
-        super.init(parentObject: parentObject)
+final class RxCalendarViewDelegateProxy: DelegateProxy<CalendarView,FSCalendarDelegate>, DelegateProxyType, FSCalendarDelegate, FSCalendarDelegateAppearance {
+    static func registerKnownImplementations() {
+         self.register { RxCalendarViewDelegateProxy(parentObject: $0) }
     }
     
-    override class func createProxyForObject(_ object: AnyObject) -> AnyObject {
-        let calendar = object as! CalendarView
-        return castOrFatalError(RxCalendarViewDelegateProxy(parentObject: calendar))
+    static func currentDelegate(for object: CalendarView) -> FSCalendarDelegate? {
+        return object.delegate
+    }
+    
+    static func setCurrentDelegate(_ delegate: FSCalendarDelegate?, to object: CalendarView) {
+        object.delegate = castOptionalOrFatalError(delegate)
+    }
+    
+    required init(parentObject: CalendarView) {
+        calendar = parentObject
+        super.init(parentObject: parentObject, delegateProxy: RxCalendarViewDelegateProxy.self)
     }
     
     static func setCurrentDelegate(_ delegate: AnyObject?, toObject object: AnyObject) {
@@ -48,20 +56,22 @@ final class RxCalendarViewDelegateProxy: DelegateProxy, DelegateProxyType, FSCal
 
 //MARK: - DataSource
 
-final class RxCalendarViewDataSourceProxy: DelegateProxy, DelegateProxyType, FSCalendarDataSource {
-    required init(parentObject: AnyObject) {
-        calendar = (parentObject as! CalendarView)
-        super.init(parentObject: parentObject)
+final class RxCalendarViewDataSourceProxy: DelegateProxy<CalendarView,FSCalendarDataSource>, DelegateProxyType, FSCalendarDataSource {
+    static func registerKnownImplementations() {
+        self.register { RxCalendarViewDataSourceProxy(parentObject: $0) }
     }
     
-    override class func createProxyForObject(_ object: AnyObject) -> AnyObject {
-        let calendar = object as! CalendarView
-        return castOrFatalError(RxCalendarViewDataSourceProxy(parentObject: calendar))
+    static func currentDelegate(for object: CalendarView) -> FSCalendarDataSource? {
+        return object.dataSource
     }
     
-    static func setCurrentDelegate(_ delegate: AnyObject?, toObject object: AnyObject) {
-        let calendar: CalendarView = castOrFatalError(object)
-        calendar.dataSource = castOptionalOrFatalError(delegate)
+    static func setCurrentDelegate(_ delegate: FSCalendarDataSource?, to object: CalendarView) {
+        object.dataSource = castOptionalOrFatalError(delegate)
+    }
+    
+    required init(parentObject: CalendarView) {
+        calendar = parentObject
+        super.init(parentObject: parentObject, delegateProxy: RxCalendarViewDataSourceProxy.self)
     }
     
     static func currentDelegateFor(_ object: AnyObject) -> AnyObject? {
@@ -75,16 +85,16 @@ final class RxCalendarViewDataSourceProxy: DelegateProxy, DelegateProxyType, FSC
 //MARK: - Reactive
 
 extension Reactive where Base: CalendarView {
-    var delegate: DelegateProxy {
-        return RxCalendarViewDelegateProxy.proxyForObject(base)
+    var delegate: RxCalendarViewDelegateProxy {
+        return RxCalendarViewDelegateProxy.proxy(for: base)
     }
     
     func setDelegate(_ delegate: FSCalendarDelegate) -> Disposable {
         return RxCalendarViewDelegateProxy.installForwardDelegate(delegate, retainDelegate: false, onProxyForObject: base)
     }
     
-    var dataSource: DelegateProxy {
-        return RxCalendarViewDataSourceProxy.proxyForObject(base)
+    var dataSource: RxCalendarViewDataSourceProxy {
+        return RxCalendarViewDataSourceProxy.proxy(for: base)
     }
     
     func setDataSource(_ dataSource: FSCalendarDataSource) -> Disposable {

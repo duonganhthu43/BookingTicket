@@ -1,4 +1,4 @@
-github "ReactiveX/RxSwift" ~> 4.0
+github "ReactiveX/RxSwift"
 github "RxSwiftCommunity/RxDataSources"
 github "Alamofire/Alamofire"
 github "Alamofire/AlamofireNetworkActivityIndicator"
@@ -16,6 +16,3 @@ github "xmartlabs/Eureka"
 github "yapstudios/YapDatabase"
 github "seedco/StackViewController"
 github "ngocluu/FSCalendar" "bug-fixes"
-
-
-

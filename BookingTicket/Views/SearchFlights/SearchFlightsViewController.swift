@@ -34,10 +34,23 @@ final class SearchFlightViewController: SectionedViewController, CustomNavigatio
     //MARK Properties
     private lazy var placesSection = SectionPlacesController()
     private lazy var datesSection = SectionDatesController()
+    private lazy var searchButton =
     
 }
 
 extension SearchFlightViewController {
-    
+    private func createSearch() -> UIButton {
+        let button = UIButton(type: .system)
+        button.setup(backgroundColor: ColorPalette.ma
+        )
+//        if let rightIcon = rightIcon {
+//            button.setImage(rightIcon, for: .normal)
+//            button.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
+//            button.titleLabel?.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
+//            button.imageView?.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
+//            button.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10)
+//        }
+        return button
+    }
     
 }

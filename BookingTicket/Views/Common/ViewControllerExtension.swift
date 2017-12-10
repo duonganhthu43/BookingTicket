@@ -101,3 +101,41 @@ extension UIViewController {
         UIApplication.shared.keyWindow?.rootViewController?.dismiss(animated: false, completion: nil)
     }
 }
+
+enum MessageBoxStyle {
+    case toast
+    case alertBox
+}
+
+extension UIViewController {
+    func presentError(_ error: Error, messageBoxStyle: MessageBoxStyle = .alertBox, completion: (() -> Void)? = nil) {
+        if (error as NSError).code == NSURLErrorNotConnectedToInternet {
+            presentNoInternetConnectionError()
+            return
+        }
+        presentError(message: error.localizedDescription, title: title, messageBoxStyle: messageBoxStyle, completion: completion)
+    }
+    
+    func presentNoInternetConnectionError(_ completion: (() -> Void)? = nil) {
+        ToastManager.shared.presentNoInternetConnectionError()
+        completion?()
+    }
+    
+    func presentError(message: String, title: String? = nil, messageBoxStyle: MessageBoxStyle = .alertBox, messageType: ToastMessageType = .error, completion: ((()) -> Void)? = nil) {
+        if case messageBoxStyle = MessageBoxStyle.alertBox {
+            _ = Reactive<AlertPopupViewController>.present(parent: UIViewController.topMostController) {
+                $0.title = title
+                $0.message = message
+                $0.mainButtonTitle = NSLocalizedString("OK", comment: "")
+                $0.showCancelButton = false
+                }
+                .filter { $0 }
+                .map { _ in }
+                .subscribe(onNext: completion)
+        }
+        else {
+            ToastManager.shared.presentAnimated(message: message, messageType: messageType)
+            completion?(())
+        }
+    }
+}

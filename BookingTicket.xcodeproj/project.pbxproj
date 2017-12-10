@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C084BD81FDC62F3007783D7 /* AlertPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BD71FDC62F3007783D7 /* AlertPopupViewController.swift */; };
+		6C084BDA1FDC6316007783D7 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BD91FDC6316007783D7 /* PopUpViewController.swift */; };
+		6C084BDC1FDC64C8007783D7 /* AttributeStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BDB1FDC64C8007783D7 /* AttributeStringExtension.swift */; };
+		6C084BDE1FDC6721007783D7 /* LeaveDateViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BDD1FDC6721007783D7 /* LeaveDateViewModels.swift */; };
+		6C084BE01FDC6AA3007783D7 /* SelectDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BDF1FDC6AA3007783D7 /* SelectDateViewController.swift */; };
+		6C084BE21FDC6C70007783D7 /* AlertPopUpViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BE11FDC6C70007783D7 /* AlertPopUpViewController+Rx.swift */; };
+		6C084BE41FDC6EEE007783D7 /* AlertAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BE31FDC6EEE007783D7 /* AlertAnimatedTransitioning.swift */; };
+		6C084BE61FDC702D007783D7 /* AlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BE51FDC702D007783D7 /* AlertControllerExtension.swift */; };
+		6C084BE81FDC71D6007783D7 /* DateStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C084BE71FDC71D6007783D7 /* DateStringExtension.swift */; };
 		6C6CC5A71FCDB4B500AF80AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CC5A61FCDB4B500AF80AB /* AppDelegate.swift */; };
 		6C6CC5AF1FCDB4B500AF80AB /* BookingTicket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CC5AD1FCDB4B500AF80AB /* BookingTicket.xcdatamodeld */; };
 		6C6CC5B11FCDB4B500AF80AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CC5B01FCDB4B500AF80AB /* Assets.xcassets */; };
@@ -105,6 +114,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C084BD71FDC62F3007783D7 /* AlertPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPopupViewController.swift; sourceTree = "<group>"; };
+		6C084BD91FDC6316007783D7 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		6C084BDB1FDC64C8007783D7 /* AttributeStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeStringExtension.swift; sourceTree = "<group>"; };
+		6C084BDD1FDC6721007783D7 /* LeaveDateViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaveDateViewModels.swift; sourceTree = "<group>"; };
+		6C084BDF1FDC6AA3007783D7 /* SelectDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDateViewController.swift; sourceTree = "<group>"; };
+		6C084BE11FDC6C70007783D7 /* AlertPopUpViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertPopUpViewController+Rx.swift"; sourceTree = "<group>"; };
+		6C084BE31FDC6EEE007783D7 /* AlertAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		6C084BE51FDC702D007783D7 /* AlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerExtension.swift; sourceTree = "<group>"; };
+		6C084BE71FDC71D6007783D7 /* DateStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStringExtension.swift; sourceTree = "<group>"; };
 		6C6CC5A31FCDB4B500AF80AB /* BookingTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6CC5A61FCDB4B500AF80AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6CC5AE1FCDB4B500AF80AB /* BookingTicket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookingTicket.xcdatamodel; sourceTree = "<group>"; };
@@ -372,6 +390,7 @@
 				6CE076361FD29222006547D1 /* SearchFlights */,
 				6CBD4BA91FD09604005E4113 /* Onboarding */,
 				6CBD4B7A1FCFA7A6005E4113 /* Common */,
+				6C084BDF1FDC6AA3007783D7 /* SelectDateViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -396,6 +415,10 @@
 				6CBB21BF1FD466A5005DBB0D /* CalendarSelectionIndicatorView.swift */,
 				6CBB21C11FD46CFE005DBB0D /* CalendarHeader.swift */,
 				6CBB21C31FD46F16005DBB0D /* CalendarView+Rx.swift */,
+				6C084BD71FDC62F3007783D7 /* AlertPopupViewController.swift */,
+				6C084BD91FDC6316007783D7 /* PopUpViewController.swift */,
+				6C084BE11FDC6C70007783D7 /* AlertPopUpViewController+Rx.swift */,
+				6C084BE31FDC6EEE007783D7 /* AlertAnimatedTransitioning.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -480,6 +503,9 @@
 				6CBB21AC1FD445D7005DBB0D /* TextFieldExtension.swift */,
 				6CBB21BB1FD465CB005DBB0D /* DateMathExtension.swift */,
 				6CBB21BD1FD46662005DBB0D /* DateExtension.swift */,
+				6C084BDB1FDC64C8007783D7 /* AttributeStringExtension.swift */,
+				6C084BE51FDC702D007783D7 /* AlertControllerExtension.swift */,
+				6C084BE71FDC71D6007783D7 /* DateStringExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -499,6 +525,7 @@
 				6CE076371FD29250006547D1 /* SearchFlightsViewController.swift */,
 				6CBEACBB1FD3327000314824 /* SectionPlaces.swift */,
 				6CBB21AE1FD45618005DBB0D /* SectionDates.swift */,
+				6C084BDD1FDC6721007783D7 /* LeaveDateViewModels.swift */,
 			);
 			path = SearchFlights;
 			sourceTree = "<group>";
@@ -643,10 +670,12 @@
 				6CBD4B7E1FCFA7FF005E4113 /* SegueManager.swift in Sources */,
 				6CE0762E1FD28175006547D1 /* ViewExtension.swift in Sources */,
 				6CBB21AD1FD445D7005DBB0D /* TextFieldExtension.swift in Sources */,
+				6C084BD81FDC62F3007783D7 /* AlertPopupViewController.swift in Sources */,
 				6CBB21B81FD46394005DBB0D /* CalendarCell.swift in Sources */,
 				6CBD4B801FCFA863005E4113 /* SeguePerformer.swift in Sources */,
 				6CBEACBC1FD3327000314824 /* SectionPlaces.swift in Sources */,
 				6CBD4B711FCF9EC6005E4113 /* CancelationRule.swift in Sources */,
+				6C084BE41FDC6EEE007783D7 /* AlertAnimatedTransitioning.swift in Sources */,
 				6CE076221FD27A5B006547D1 /* RxExtension.swift in Sources */,
 				6C6CC5BD1FCDB51000AF80AB /* Action.swift in Sources */,
 				6C6CC5AF1FCDB4B500AF80AB /* BookingTicket.xcdatamodeld in Sources */,
@@ -654,6 +683,7 @@
 				6CBB21C41FD46F16005DBB0D /* CalendarView+Rx.swift in Sources */,
 				6CE0760F1FD25B5E006547D1 /* ImageExtension.swift in Sources */,
 				6CE076201FD27A2E006547D1 /* ViewControllerRxExtension.swift in Sources */,
+				6C084BE21FDC6C70007783D7 /* AlertPopUpViewController+Rx.swift in Sources */,
 				6CE0762A1FD27B8D006547D1 /* PopupPresentController.swift in Sources */,
 				6CBD4BAB1FD09619005E4113 /* OnboardingViewController.swift in Sources */,
 				6CBD4B941FD07BA3005E4113 /* UserAccount.swift in Sources */,
@@ -665,6 +695,7 @@
 				6CBD4B681FCF9D68005E4113 /* Store.swift in Sources */,
 				6CF637481FD1008300801E90 /* Image.swift in Sources */,
 				6CBB21AF1FD45618005DBB0D /* SectionDates.swift in Sources */,
+				6C084BE01FDC6AA3007783D7 /* SelectDateViewController.swift in Sources */,
 				6CE076131FD266AD006547D1 /* StringExtension.swift in Sources */,
 				6CE076331FD28F7F006547D1 /* NotificationCenterExtension.swift in Sources */,
 				6C6CC5A71FCDB4B500AF80AB /* AppDelegate.swift in Sources */,
@@ -688,17 +719,22 @@
 				6CBD4B861FCFB433005E4113 /* ViewControllerExtension.swift in Sources */,
 				6CBD4B9C1FD07CF5005E4113 /* IdentifiableModelType.swift in Sources */,
 				6CBD4B841FCFB3D7005E4113 /* NavigationController.swift in Sources */,
+				6C084BDE1FDC6721007783D7 /* LeaveDateViewModels.swift in Sources */,
+				6C084BE61FDC702D007783D7 /* AlertControllerExtension.swift in Sources */,
+				6C084BE81FDC71D6007783D7 /* DateStringExtension.swift in Sources */,
 				6CBD4B8D1FD07A0D005E4113 /* ColorPalette.swift in Sources */,
 				6CE076151FD26707006547D1 /* ParagraphStyleExtension.swift in Sources */,
 				6CBD4B621FCF9C17005E4113 /* ActionEvent.swift in Sources */,
 				6CE076261FD27ACA006547D1 /* ReachabilityHelper.swift in Sources */,
 				6CF637381FD0EFC300801E90 /* GeometryExtension.swift in Sources */,
 				6CBD4B731FCF9EE8005E4113 /* CombineRule.swift in Sources */,
+				6C084BDC1FDC64C8007783D7 /* AttributeStringExtension.swift in Sources */,
 				6CBB21BC1FD465CB005DBB0D /* DateMathExtension.swift in Sources */,
 				6CBD4B6A1FCF9DFE005E4113 /* StorePersistence.swift in Sources */,
 				6CE0761D1FD279B0006547D1 /* PopupAnimatedTransitioning.swift in Sources */,
 				6CE076191FD27896006547D1 /* PopupViewCreating.swift in Sources */,
 				6CF637361FD0EE4000801E90 /* SignupTextField.swift in Sources */,
+				6C084BDA1FDC6316007783D7 /* PopUpViewController.swift in Sources */,
 				6CBEACB81FD327AA00314824 /* SectionedViewController.swift in Sources */,
 				6CBD4B641FCF9C74005E4113 /* StoreUpdater.swift in Sources */,
 				6CBB21B61FD46364005DBB0D /* CalendarView.swift in Sources */,

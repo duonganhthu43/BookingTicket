@@ -3,11 +3,11 @@
   "iOS" : [
     {
       "name" : "Differentiator",
-      "hash" : "355fc4432cd47178e9128e4334c293fe3a5440460ea60b2b94cf15ea76043c0d"
+      "hash" : "e015202408a46749c7aeb9473cc888076f94d01cb9c8f27249fcb1869357469c"
     },
     {
       "name" : "RxDataSources",
-      "hash" : "f3cd0965ef47644640bbe1ebbfd467d3334e2395e2cf9f18e9385e6f2d972b3a"
+      "hash" : "809ef76b2688f9d05e7602a7a024640a909382c0e23059fd211ec6d73ef91933"
     }
   ]
 }
